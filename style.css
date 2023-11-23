@@ -7,15 +7,15 @@
 /* */
 
 /* Inicio area navegação*/
-ul, li{
-    list-style: none;
-    display: inline;
-    margin-left: 90px;
-}
+
 
 #menu{
     height: 30px;
     margin-top: 50px;
+}
+
+#area-lista{
+    margin: auto;
 }
 
 .lista{
@@ -26,6 +26,15 @@ ul, li{
     font-weight: bold;
     padding-left: 25px;
     padding-right: 25px;
+    margin-left: 100px;
+    border: none;
+    
+}
+
+.lista:active{
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: 102px;
 }
 
 .lista:hover{
@@ -46,6 +55,7 @@ ul, li{
 .navegacao{
     display: flex; 
     margin: 10px;
+
 }
 
 /* Fim area navegação*/
@@ -65,4 +75,9 @@ ul, li{
     color: #ffd230;
     background-color: rgb(7, 11, 11);
     cursor: pointer;
+}
+
+.botao:active{
+    padding: 9px;
+    margin: 6px;
 }
